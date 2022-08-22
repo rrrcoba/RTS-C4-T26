@@ -1,29 +1,29 @@
 # RTS-C4-T26-4
 Fourth exercise of task 26 of the T-Systems BootCamp of Reus.
 
-## GET localhost:8181/api/researchers
-## GET localhost:8181/api/researchers/{id}
-## POST localhost:8181/api/researchers
-## PUT localhost:8181/api/researchers/{id}
-## DELETE localhost:8181/api/researchers/{id}
+## GET https://rts-c4-t26-4.herokuapp.com/api/researchers
+## GET https://rts-c4-t26-4.herokuapp.com/api/researchers/{id}
+## POST https://rts-c4-t26-4.herokuapp.com/api/researchers
+## PUT https://rts-c4-t26-4.herokuapp.com/api/researchers/{id}
+## DELETE https://rts-c4-t26-4.herokuapp.com/api/researchers/{id}
 
 
-## GET localhost:8181/api/teams
-## GET localhost:8181/api/teams/{id}
-## POST localhost:8181/api/teams
-## PUT localhost:8181/api/teams/{id}
-## DELETE localhost:8181/api/teams/{id}
+## GET https://rts-c4-t26-4.herokuapp.com/api/teams
+## GET https://rts-c4-t26-4.herokuapp.com/api/teams/{id}
+## POST https://rts-c4-t26-4.herokuapp.com/api/teams
+## PUT https://rts-c4-t26-4.herokuapp.com/api/teams/{id}
+## DELETE https://rts-c4-t26-4.herokuapp.com/api/teams/{id}
 
 
-## GET localhost:8181/api/faculties
-## GET localhost:8181/api/faculties/{id}
-## POST localhost:8181/api/faculties
-## PUT localhost:8181/api/faculties/{id}
-## DELETE localhost:8181/api/faculties/{id}
+## GET https://rts-c4-t26-4.herokuapp.com/api/faculties
+## GET https://rts-c4-t26-4.herokuapp.com/api/faculties/{id}
+## POST https://rts-c4-t26-4.herokuapp.com/api/faculties
+## PUT https://rts-c4-t26-4.herokuapp.com/api/faculties/{id}
+## DELETE https://rts-c4-t26-4.herokuapp.com/api/faculties/{id}
 
 
-## GET localhost:8181/api/reservations
-## GET localhost:8181/api/reservations/{id}
-## POST localhost:8181/api/reservations
-## PUT localhost:8181/api/reservations/{id}
-## DELETE localhost:8181/api/reservations/{id}
+## GET https://rts-c4-t26-4.herokuapp.com/api/reservations
+## GET https://rts-c4-t26-4.herokuapp.com/api/reservations/{id}
+## POST https://rts-c4-t26-4.herokuapp.com/api/reservations
+## PUT https://rts-c4-t26-4.herokuapp.com/api/reservations/{id}
+## DELETE https://rts-c4-t26-4.herokuapp.com/api/reservations/{id}
