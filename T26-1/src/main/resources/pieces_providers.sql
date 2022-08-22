@@ -1,8 +1,8 @@
 use heroku_c32affd8800ea8e;
 
+DROP TABLE IF EXISTS `supplies`;
 DROP TABLE IF EXISTS `pieces`;
 DROP TABLE IF EXISTS `providers`;
-DROP TABLE IF EXISTS `supplies`;
 
 CREATE TABLE `pieces` (
   `id` int NOT NULL auto_increment,
