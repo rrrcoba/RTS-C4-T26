@@ -1,21 +1,20 @@
 # RTS-C4-T26-1
 First exercise of task 26 of the T-Systems BootCamp of Reus.
 
-## GET localhost:8181/api/pieces
-## GET localhost:8181/api/pieces/{id}
-## POST localhost:8181/api/pieces
-## PUT localhost:8181/api/pieces/{id}
-## DELETE localhost:8181/api/pieces/{id}
+## GET https://rts-c4-t26-1.herokuapp.com/api/pieces
+## GET https://rts-c4-t26-1.herokuapp.com/api/pieces/{id}
+## POST https://rts-c4-t26-1.herokuapp.com/api/pieces
+## PUT https://rts-c4-t26-1.herokuapp.com/api/pieces/{id}
+## DELETE https://rts-c4-t26-1.herokuapp.com/api/pieces/{id}
 
+## GET https://rts-c4-t26-1.herokuapp.com/api/providers
+## GET https://rts-c4-t26-1.herokuapp.com/api/providers/{id}
+## POST https://rts-c4-t26-1.herokuapp.com/api/providers
+## PUT https://rts-c4-t26-1.herokuapp.com/api/providers/{id}
+## DELETE https://rts-c4-t26-1.herokuapp.com/api/providers/{id}
 
-## GET localhost:8181/api/providers
-## GET localhost:8181/api/providers/{id}
-## POST localhost:8181/api/providers
-## PUT localhost:8181/api/providers/{id}
-## DELETE localhost:8181/api/providers/{id}
-
-## GET localhost:8181/api/supplies
-## GET localhost:8181/api/supplies/{id}
-## POST localhost:8181/api/supplies
-## PUT localhost:8181/api/supplies/{id}
-## DELETE localhost:8181/api/supplies/{id}
+## GET https://rts-c4-t26-1.herokuapp.com/api/supplies
+## GET https://rts-c4-t26-1.herokuapp.com/api/supplies/{id}
+## POST https://rts-c4-t26-1.herokuapp.com/api/supplies
+## PUT https://rts-c4-t26-1.herokuapp.com/api/supplies/{id}
+## DELETE https://rts-c4-t26-1.herokuapp.com/api/supplies/{id}
