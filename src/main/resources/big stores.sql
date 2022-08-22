@@ -1,9 +1,9 @@
 use heroku_c32affd8800ea8e;
 
+DROP TABLE IF EXISTS `sales`;
 DROP TABLE IF EXISTS `products`;
 DROP TABLE IF EXISTS `cash_register`;
 DROP TABLE IF EXISTS `cashiers`;
-DROP TABLE IF EXISTS `sales`;
 
 CREATE TABLE `products` (
   `id` int NOT NULL auto_increment,
@@ -30,9 +30,9 @@ CREATE TABLE `sales` (
   `id_cash_register` int NOT NULL,
   `id_cashier` int NOT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `supplies_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `supplies_ibfk_2` FOREIGN KEY (`id_cash_register`) REFERENCES `cash_register` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `supplies_ibfk_3` FOREIGN KEY (`id_cashier`) REFERENCES `cashiers` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `sales_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `sales_ibfk_2` FOREIGN KEY (`id_cash_register`) REFERENCES `cash_register` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `sales_ibfk_3` FOREIGN KEY (`id_cashier`) REFERENCES `cashiers` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
 INSERT INTO `products` (`name`,`price`) VALUES ('Leche',0.6) , ('Huevos',1.0) , ('Azucar',0.5);
