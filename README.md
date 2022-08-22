@@ -1,29 +1,29 @@
 # RTS-C4-T26-3
 Third exercise of task 26 of the T-Systems BootCamp of Reus.
 
-## GET localhost:8181/api/products
-## GET localhost:8181/api/products/{id}
-## POST localhost:8181/api/products
-## PUT localhost:8181/api/products/{id}
-## DELETE localhost:8181/api/products/{id}
+## GET https://rts-c4-t26-3.herokuapp.com/api/products
+## GET https://rts-c4-t26-3.herokuapp.com/api/products/{id}
+## POST https://rts-c4-t26-3.herokuapp.com/api/products
+## PUT https://rts-c4-t26-3.herokuapp.com/api/products/{id}
+## DELETE https://rts-c4-t26-3.herokuapp.com/api/products/{id}
 
 
-## GET localhost:8181/api/cashregisters
-## GET localhost:8181/api/cashregisters/{id}
-## POST localhost:8181/api/cashregisters
-## PUT localhost:8181/api/cashregisters/{id}
-## DELETE localhost:8181/api/cashregisters/{id}
+## GET https://rts-c4-t26-3.herokuapp.com/api/cashregisters
+## GET https://rts-c4-t26-3.herokuapp.com/api/cashregisters/{id}
+## POST https://rts-c4-t26-3.herokuapp.com/api/cashregisters
+## PUT https://rts-c4-t26-3.herokuapp.com/api/cashregisters/{id}
+## DELETE https://rts-c4-t26-3.herokuapp.com/api/cashregisters/{id}
 
 
-## GET localhost:8181/api/cashiers
-## GET localhost:8181/api/cashiers/{id}
-## POST localhost:8181/api/cashiers
-## PUT localhost:8181/api/cashiers/{id}
-## DELETE localhost:8181/api/cashiers/{id}
+## GET https://rts-c4-t26-3.herokuapp.com/api/cashiers
+## GET https://rts-c4-t26-3.herokuapp.com/api/cashiers/{id}
+## POST https://rts-c4-t26-3.herokuapp.com/api/cashiers
+## PUT https://rts-c4-t26-3.herokuapp.com/api/cashiers/{id}
+## DELETE https://rts-c4-t26-3.herokuapp.com/api/cashiers/{id}
 
 
-## GET localhost:8181/api/sales
-## GET localhost:8181/api/sales/{id}
-## POST localhost:8181/api/sales
-## PUT localhost:8181/api/sales/{id}
-## DELETE localhost:8181/api/sales/{id}
+## GET https://rts-c4-t26-3.herokuapp.com/api/sales
+## GET https://rts-c4-t26-3.herokuapp.com/api/sales/{id}
+## POST https://rts-c4-t26-3.herokuapp.com/api/sales
+## PUT https://rts-c4-t26-3.herokuapp.com/api/sales/{id}
+## DELETE https://rts-c4-t26-3.herokuapp.com/api/sales/{id}
