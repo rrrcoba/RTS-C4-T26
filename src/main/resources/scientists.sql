@@ -1,8 +1,8 @@
 use heroku_c32affd8800ea8e;
 
+DROP TABLE IF EXISTS `assigned`;
 DROP TABLE IF EXISTS `scientists`;
 DROP TABLE IF EXISTS `projects`;
-DROP TABLE IF EXISTS `assigned`;
 
 CREATE TABLE `scientists` (
   `id` int NOT NULL auto_increment,
@@ -23,8 +23,8 @@ CREATE TABLE `assigned` (
   `id_scientist` int NOT NULL,
   `id_project` int NOT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `supplies_ibfk_1` FOREIGN KEY (`id_project`) REFERENCES `projects` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `supplies_ibfk_2` FOREIGN KEY (`id_scientist`) REFERENCES `scientists` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `assigned_ibfk_1` FOREIGN KEY (`id_project`) REFERENCES `projects` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `assigned_ibfk_2` FOREIGN KEY (`id_scientist`) REFERENCES `scientists` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
 INSERT INTO `scientists` (`DNI`,`name_surname`) VALUES ('11111111A', 'Pepito magico'),('22222222B','Pepito normal'),('33333333C','Pepito medio');
